@@ -7,4 +7,8 @@ cd libducohash
 cargo build --release
 mv target/release/libducohasher.so .
 wget https://raw.githubusercontent.com/revoxhere/duino-coin/master/PC_Miner.py
+mkdir 'Duino-Coin PC Miner 3.3'
+cd 'Duino-Coin PC Miner 3.3'
+wget https://raw.githubusercontent.com/HocasPocas/DuinoCoin_Miner/main/Settings.cfg
+cd ..
 python3 PC_Miner.py
